@@ -3,7 +3,7 @@ import React from 'react'
 import truck from '../assets/truck.png';
 import shipping from '../assets/shipping.png';
 import headset from '../assets/headset.png';
-import tag from '../assets/tag.png';
+import tag from '../assets/tag.png'; 
 
 export const OurService = () => {
   return (
