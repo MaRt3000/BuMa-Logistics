@@ -7,7 +7,7 @@ function HeroSection() {
     <section className="hero">
       <div className="hero-content">
         <h1>We offer a wide range of logistics solutions.</h1>
-        <ul>
+        <ul> 
           <li>Fast Delivery</li>
           <li>Global Coverage</li>
           <li>Customer Support</li>
