@@ -7,7 +7,7 @@ import tag from '../assets/tag.png';
 
 export const OurService = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-10 '>
+    <div id="service" className='flex flex-col items-center justify-center gap-10 '>
                 <div style={{ fontSize: '50px' }} className="sm:text-30px"><h1>Our Services</h1>
   
 </div>

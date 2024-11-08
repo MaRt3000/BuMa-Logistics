@@ -5,7 +5,7 @@ import Aeroplane from '../assets/aeroplane.jpg'
 
 export const Article = () => {
   return (
-    <div className='flex flex-col items-center justify-center gap-10 py-10'>
+    <div id="resources" className='flex flex-col items-center justify-center gap-10 py-10'>
                 <div style={{ fontSize: '50px' }} className="sm:text-30px"><h1>Latest Articles</h1>
   
 </div>

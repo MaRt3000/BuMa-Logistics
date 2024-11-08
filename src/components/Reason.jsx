@@ -9,8 +9,8 @@ function Reason() {
   
 
   return (
-    <>
-    <div className="clientEx">
+    <section id="company">
+    <div  className="clientEx">
     <h1 className="client">What Our Client Say</h1>
     </div>
     <div className="origin">
@@ -20,7 +20,7 @@ function Reason() {
       
     </div>
     <Shipment />
-    </>
+    </section>
   )
 }
 
