@@ -1,0 +1,147 @@
+/* Global Styles */
+* {
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.global-with-ease {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  color: #0d412b;
+}
+
+/* Content Wrapper */
+.content-wrapper {
+  max-width: 50%;
+}
+
+.content-wrapper h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.content-wrapper p {
+  font-size: 1rem;
+  color: #5a5a5a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.content-wrapper button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #2b3d3a;
+  border: 2px solid #2b3d3a;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.content-wrapper button:hover {
+  background-color: #e8f0ef;
+}
+
+/* Features Wrapper */
+.features-wrapper {
+  max-width: 40%;
+}
+
+.feature {
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.feature h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #2b3d3a;
+  margin-bottom: 10px;
+}
+
+.feature p {
+  font-size: 0.9rem;
+  color: #5a5a5a;
+  line-height: 1.5;
+}
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+  .global-with-ease {
+    padding: 30px;
+  }
+
+  .content-wrapper,
+  .features-wrapper {
+    max-width: 45%;
+  }
+
+  .content-wrapper h1 {
+    font-size: 1.8rem;
+  }
+
+  .feature {
+    padding: 15px;
+  }
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+  .global-with-ease {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .content-wrapper,
+  .features-wrapper {
+    max-width: 100%;
+  }
+
+  .content-wrapper {
+    margin-bottom: 40px;
+  }
+
+  .content-wrapper h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-wrapper p {
+    font-size: 0.95rem;
+  }
+
+  .feature {
+    margin-bottom: 10px;
+  }
+
+  .feature h2 {
+    font-size: 1.1rem;
+  }
+}
+
+/* Small Mobile Styles */
+@media screen and (max-width: 480px) {
+  .global-with-ease {
+    padding: 15px;
+  }
+
+  .content-wrapper h1 {
+    font-size: 1.3rem;
+  }
+
+  .content-wrapper button {
+    width: 100%;
+    padding: 12px;
+  }
+
+  .feature {
+    padding: 12px;
+  }
+
+  .feature p {
+    font-size: 0.85rem;
+  }
+}
