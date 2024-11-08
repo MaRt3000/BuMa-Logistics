@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 10px;
-    background-color:  #cacccc;
+    background-color:  #F9F9FB;
     padding: 20px 40px;
     line-height: 1.5rem;
 }
@@ -31,6 +31,8 @@ span{
 }
 .Developer{
     display: flex;
+    color: #fff;
+    background-color: #0F94A0;
    align-items: center;
     justify-content: space-between;
     padding: 10px 40px ;
@@ -40,7 +42,7 @@ span{
         display: grid;
         grid-template-columns:repeat(2, 1fr);
         gap: 40px;
-        background-color:  #cacccc;
+        background-color:  #F9F9FB;
         padding: 20px 40px;
         line-height: 1.5rem;
     }

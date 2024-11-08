@@ -2,8 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
-    height: 70vh;
+    padding: 50px;
+    height: 90vh;
     width: 100%;
 }
 .cardAx{
@@ -59,8 +59,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0;
-        height: 70vh;
+        padding: 50px;
+        height: 80vh;
         width: 100%;
     }
     .cardAx{
