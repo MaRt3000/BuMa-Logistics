@@ -79,28 +79,29 @@
     }
     .cardEx{
         background-color: #F9F9FB;
-        width: 25%;
+        width: 40%;
     
         display: flex;
         flex-direction: column;
+        justify-content: center;
         gap: 20px;
         height: 100%;
         /* height: 60vh; */
         padding: 30px ;
         
     }
+    .cardEx b{
+        font-size: 0.6rem;
+    }
     .cardEx h2{
-        font-weight: 400;
-        font-size: 3.5rem;
-        margin-bottom: -13px;
+        font-size: 1.5rem;
     }
     .cardAx h3{
-        font-weight: 400;
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .cardAx p{
         font-weight: 300;
-        font-size: 1.7rem;
+        font-size: 1.2rem;
     }
     .Acc{
         background-color: #fff;

@@ -6,15 +6,15 @@ const Header = () => {
   const [isMobile, setIsMobile] = useState(false);
   
   const toggleMobileMenu = () => {
-    setIsMobile(isMobile);
+    setIsMobile(!isMobile);
   };
 
   return (
     <div>
       <header className='navbar'>
         <h2 className='logo'>BUMA</h2>
-        <nav>
-            <ul className={isMobile ? 'nav-link-mobile' : 'nav-links'}>
+        <nav className={isMobile ? 'nav-link-mobile' : 'nav-links'}>
+            <ul>
                 <li><a href='#service'>Services</a></li>
                 <li><a href='#resources'>Resources</a></li>
                 <li><a href='#company'>Company</a></li>
