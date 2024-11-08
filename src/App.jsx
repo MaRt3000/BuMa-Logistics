@@ -1,12 +1,16 @@
-import { useState } from 'react'
-import HeroSection from './components/Hero'
+import Reason from './components/Reason'
+import Header from '../src/components/Header.jsx'
+import HeroSection from '../src/components/HeroSection.jsx'
+import Footer from '../src/components/Footer.jsx'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
-     <HeroSection/>
+    <Header />
+    <HeroSection />
+     <Reason />
+     <Footer />
     </>
   )
 }

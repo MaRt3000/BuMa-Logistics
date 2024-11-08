@@ -1,0 +1,64 @@
+.origin{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+    gap: 30px;
+  }
+  img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+  }
+  .cont{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background: #d8d8e2;
+    padding: 20px;
+  }
+  .contain h1{
+    margin-top: -35px;
+    margin-bottom: -15px;
+    padding-left: 20px;
+    font-size: 3.3rem;
+    color: #22ebeb;
+  }
+  .clientEx{
+    text-align: center;
+  }
+  .client{
+    font-weight: 400;
+    color: #114d39;
+    font-size: 3.5rem;
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+    .origin{
+      display: grid;
+      text-align: center;
+      grid-template-columns: 1fr;
+      padding: 30px;
+      gap: 30px;
+    }
+    img{
+      width: 70px;
+      height: 70px;
+      border-radius: 100%;
+    }
+    .cont{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    .contain h1{
+      position: relative;
+      left: -100px;
+    }
+    .client{
+      font-weight: 400;
+      color: #114d39;
+      font-size: 2.7rem;
+    }
+  }
