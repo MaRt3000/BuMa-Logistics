@@ -1,20 +1,21 @@
 /* Global Styles */
-* {
-  box-sizing: border-box;
-  background-color: #f9f9f9;
-}
 
 .global-with-ease {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 40px;
   font-family: Arial, sans-serif;
   color: #0d412b;
+}
+.content-wrapper, .features-wrapper{
+  width: 50%;
 }
 
 /* Content Wrapper */
 .content-wrapper {
   max-width: 50%;
+  
 }
 
 .content-wrapper h1 {
@@ -24,7 +25,7 @@
 }
 
 .content-wrapper p {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #5a5a5a;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -34,7 +35,7 @@
   padding: 10px 20px;
   font-size: 1rem;
   color: #2b3d3a;
-  border: 2px solid #2b3d3a;
+  border: 2px solid #e0f7fa;
   border-radius: 30px;
   background-color: transparent;
   cursor: pointer;
@@ -48,12 +49,16 @@
 /* Features Wrapper */
 .features-wrapper {
   max-width: 40%;
+  
 }
 
 .feature {
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 2px;
+  border: 1px solid #dfdddc;
   margin-bottom: 15px;
+  background-color: #EDEBE9;
+
 }
 
 .feature h2 {
@@ -77,7 +82,7 @@
 
   .content-wrapper,
   .features-wrapper {
-    max-width: 45%;
+    max-width: 100%;
   }
 
   .content-wrapper h1 {
@@ -98,7 +103,7 @@
 
   .content-wrapper,
   .features-wrapper {
-    max-width: 100%;
+    width: 100%;
   }
 
   .content-wrapper {
@@ -115,6 +120,7 @@
 
   .feature {
     margin-bottom: 10px;
+    width: 100%;
   }
 
   .feature h2 {
@@ -139,6 +145,7 @@
 
   .feature {
     padding: 12px;
+    width: 100%;
   }
 
   .feature p {
