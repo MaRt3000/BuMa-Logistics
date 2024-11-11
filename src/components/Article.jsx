@@ -13,7 +13,7 @@ export const Article = () => {
         <div class='px-10  grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 p-4'>
 
                     <div>
-                    <img src={Aeroplane} alt="truck img" className='w-full rounded-none h-40 relative'/>
+                    <img src={Aeroplane} alt="truck img" className='w-full rounded-none h-40 '/>
                     <div className="bg-green-50 p-4 w-full">
                         <h3>Learn and Stay Up to Date With</h3>
                         <p class='py-5 text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam nostrum, nesciunt asperiores adipisci rerum ut atque eos soluta harum, error minus.</p>
@@ -25,7 +25,7 @@ export const Article = () => {
                     </div>
 
                     <div>
-                    <img src={DeliverGuy} alt="shipping img" className='w-full rounded-none h-40 relative' />
+                    <img src={DeliverGuy} alt="shipping img" className='w-full rounded-none h-40 ' />
                     <div className="bg-red-50 p-4 rounded">
                          
                         <h3>Asia-Pacific Shipping Update</h3>
@@ -39,7 +39,7 @@ export const Article = () => {
 
                     
                     <div>
-                    <img src={Aeroplane} alt="headset img" className='w-full rounded-none h-40 relative' />
+                    <img src={Aeroplane} alt="headset img" className='w-full rounded-none h-40 ' />
 
                         <div className="bg-red-50 p-4 rounded">
                         <h3>Stay Up to Date With Logistics</h3>

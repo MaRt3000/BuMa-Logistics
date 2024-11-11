@@ -52,10 +52,13 @@
       justify-content: center;
       gap: 20px;
     }
-    .contain h1{
-      position: relative;
-      left: -100px;
-    }
+   
+        .contain h1 {
+          margin: -35px 0 -15px -220px;
+          padding-left: 20px;
+          font-size: 3.3rem;
+          color: #22ebeb;
+        }
     .client{
       font-weight: 400;
       color: #114d39;

@@ -82,7 +82,7 @@ nav ul li{
    .logo{
     font-size: 1.5rem;
     font-weight: 700;
-    z-index: 100000;
+    z-index: 9999;
    }
     .nav-links{
         display: none;
@@ -99,7 +99,7 @@ nav ul li{
         align-items: center;
         justify-content: flex-start;
         gap: 0;
-        z-index: 9988;
+        z-index: 3;
         padding-top: 2rem;
         list-style: none;
         transform: translateX(0);

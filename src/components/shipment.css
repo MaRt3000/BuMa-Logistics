@@ -60,7 +60,7 @@
         align-items: center;
         justify-content: center;
         padding: 50px;
-        height: 80vh;
+        height: 75vh;
         width: 100%;
     }
     .cardAx{
@@ -68,13 +68,12 @@
         width: 60%;
         height: 100%;
         text-align: center;
-        /* height: 60vh; */
-        padding:  0px;
+        padding:  5px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 40px;
+        gap: 15px;
         color: #fff;
     }
     .cardEx{
@@ -97,7 +96,7 @@
         font-size: 1.5rem;
     }
     .cardAx h3{
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     .cardAx p{
         font-weight: 300;
@@ -106,7 +105,7 @@
     .Acc{
         background-color: #fff;
         color: #3cc5d0;
-        padding: 12px 50px ;
+        padding: 10px 30px ;
         border: none;
         border-radius: 40px;
     }
